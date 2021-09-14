@@ -1,0 +1,37 @@
+jenkins:
+  agentProtocols:
+  - "Diagnostic-Ping"
+  - "JNLP4-connect"
+  - "OperationsCenter2"
+  - "Ping"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  labelAtoms:
+  - name: "master"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  numExecutors: 1
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm: "operationsCenter"
+  slaveAgentPort: 50000
+  updateCenter:
+    sites:
+    - id: "virtual-cap-cje"
+      url: "https://jenkins-updates.cloudbees.com/update-center/envelope-cje/update-center.json"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"

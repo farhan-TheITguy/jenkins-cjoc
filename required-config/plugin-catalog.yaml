@@ -1,0 +1,11 @@
+type: plugin-catalog
+version: '1'
+name: additional-plugins
+displayName: Additional Plugins
+configurations:
+- description: Some additional plugins
+  prerequisites: {productVersion: 1.0.1}
+  includePlugins:
+    splunk-devops: {url: 'http://repo.jenkins-ci.org/releases/com/splunk/splunkins/splunk-devops/1.9.4/splunk-devops-1.9.4.hpi'}
+    new-relic: {url: 'https://farhan-ttn-2.s3.amazonaws.com/nr-jenkins-plugin+2/new-relic.hpi'}
+    cloudbees-casc-api: {url: 'https://farhan-ttn-2.s3.amazonaws.com/cloudbees-casc-api.hpi'}
