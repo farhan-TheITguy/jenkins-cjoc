@@ -3,15 +3,6 @@ unclassified:
     eventHarvestInterval: 60
     insightsInsertCredentialsId: "c40e3663-94ab-4811-9392-bb4acaeee447"
     systemSampleInterval: 15
-  operationsCenterRootAction:
-    connectionDetails: |-
-      ----- BEGIN CONNECTION DETAILS -----
-      H4sIAAAAAAAAAA2NSQ7DIAwA/+JzDRhMFOcbeQEE0lZNFxGqHqL8vb7OjDQHXFt6dZig+HHMw5CR
-      iRg5SkFZs2AQHyXR4sgLXOBetHX4THuvzZGSb9sU3Xr/TNYGNsTRkPMmsFX7q3l+L4+qizVtez3/
-      LqGkRXIAAAA=
-      ----- END CONNECTION DETAILS -----
-  pollSCM:
-    pollingThreadCount: 10
   splunkJenkinsInstallation:
     enabled: false
     globalPipelineFilter: true
