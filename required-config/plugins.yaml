@@ -2,4 +2,4 @@ plugins:
 - {id: splunk-devops}
 - {id: new-relic}
 - {id: casc-api}
-- {id: gitlab-plugin}
+- {id: newrelic-deployment-notifier}
